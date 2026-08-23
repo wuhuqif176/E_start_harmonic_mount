@@ -15,14 +15,14 @@ E_start/
 ├── README.md
 ├── LICENSE
 ├── hardware/
-│   ├── cad/          # STEP, Fusion 360, and other source files
-│   ├── stl/          # 3D-printable files
-│   ├── pcb/          # Controller PCB files
-│   ├── bom/          # BOM tables
-│   └── drawings/     # Assembly drawings (placeholder, see README inside)
+│   ├── cad/          
+│   ├── stl/          
+│   ├── pcb/          
+│   ├── bom/          
+│   └── drawings/     
 ├── firmware/
-│   ├── onstepx/      # OnStepX configuration
-│   └── custom/       # Custom ESP32 firmware
+│   └── onstepx/      
+│  
 ├── docs/
 │   ├── assembly.md
 │   ├── technical.md
