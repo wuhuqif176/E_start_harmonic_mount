@@ -1,6 +1,6 @@
 # E_start_harmonic_mount
 
-[English](README.md) | **Simplified Chinese**
+[English](README.md) | [中文文档](README_CN.md)
 
 > ⚠️ **Project Status: Early development / Initial validation completed.**
 >
