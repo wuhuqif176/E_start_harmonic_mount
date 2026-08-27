@@ -5,6 +5,7 @@
 > ⚠️ **Project Status: Early development / Initial validation completed.**
 >
 > The hardware has been built and passed basic testing, but some details may still be optimized. Detailed assembly documentation, technical documentation, and drawings are still under preparation. Contributions and suggestions are welcome.
+> 2D assembly drawings are being uploaded progressively. Uploaded drawings can be found in the `hardware/drawings/` directory.
 
 ## Introduction
 
