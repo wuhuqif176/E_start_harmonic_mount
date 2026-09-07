@@ -20,8 +20,8 @@ Design goals:
 
 > Note: Full payload and guiding accuracy tests have not been completed at this stage. Related data will be added later.
 
-![E_start render](images/main1.jpg)
-![E_start render 2](images/main2.jpg)
+![整机渲染图](images/main1.jpg)
+![实机展示图](images/_DSC1040.jpg)
 
 ## Hardware Components
 
