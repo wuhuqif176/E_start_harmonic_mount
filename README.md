@@ -1,11 +1,10 @@
 # E_start_harmonic_mount
 
-[English](README.md) | **简体中文**
-
 > ⚠️ **项目状态：早期开发 / 初步验证已完成。**
 >
 > 硬件已经搭建并通过基础测试，但可能进行一些细节的优化。详细的装配文档、技术文档和图纸仍在准备中。欢迎贡献与建议。
-> > 📌 2D 装配图正在陆续上传中，已上传的图纸位于 `hardware/drawings/` 目录，请耐心等待后续更新。
+> > 📌 2D 装配图以上传，已上传的图纸位于 `hardware/drawings/` 目录，下一步上传机械装配手册
+> > 📌 BOM 表已经上传
 
 ## 简介
 
@@ -39,7 +38,7 @@ E_start 是一款紧凑型谐波减速赤道仪，主要面向轻型天文摄影
 - [ ] OnStepX 固件与使用文档
 - [ ] 详细的组装说明
 - [ ] 技术图纸
-- [ ] BOM表
+- [X] BOM表
 - [ ] 接线图
 - [ ] 完整文档
 
@@ -54,13 +53,6 @@ E_start 是一款紧凑型谐波减速赤道仪，主要面向轻型天文摄影
 
 欢迎提交 Issue、Pull Request 或提出设计建议。  
 如有问题，请优先使用 GitHub Issues
-
-## 快速链接
-
-- [装配说明](docs/assembly.md)
-- [技术说明](docs/technical.md)
-- [BOM表](docs/bom.xlsx)
-- [English](README.md)
 
 ## 许可证
 
