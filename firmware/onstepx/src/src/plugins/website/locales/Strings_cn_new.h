@@ -1,0 +1,530 @@
+// -----------------------------------------------------------------------------------
+// Locale Chinese, ISO ISO639-1 language code "cn"
+#pragma once
+
+// General
+#define L_UPLOAD "上传"
+#define L_DOWNLOAD "下载"
+#define L_ACCEPT "确定"
+#define L_CONTINUE "继续"
+#define L_ARE_YOU_SURE "您确定吗"
+#define L_LOGOUT "退出登录"
+
+#define L_UT "格林威治时间（GMT）"
+#define L_LST "地方恒星时 (LST)"
+#define L_LONG "经度"
+#define L_LAT "纬度"
+#define L_EAST "东"
+#define L_WEST "西"
+#define L_ZENITH "天顶"
+#define L_NCP "北天极"
+#define L_SCP "南天极"
+
+#define L_NONE "无"
+#define L_AUTO "自动"
+#define L_SET_LABEL "转到"
+#define L_OK "确定"
+#define L_ON "开"
+#define L_OFF "关"
+#define L_START "开始"
+#define L_DELTA "增量"
+#define L_DP_MSG "相对值"
+#define L_DP_ZERO "低于该值全功率"
+#define L_DP_SPAN "高于该值关闭加热器"
+#define L_POWER "功率"
+#define L_GUIDE "导星"
+#define L_CENTER "居中"
+#define L_BLUE "蓝"
+#define L_GREEN "绿"
+#define L_RATE "速率"
+#define L_RANGE "范围"
+#define L_UNKNOWN "未知"
+#define L_FAULT "故障"
+#define L_POINT "指向"
+#define L_COMPLETE "完成"
+#define L_ACTIVE "启用"
+#define L_INACTIVE "未启用"
+#define L_BEST "最佳"
+#define L_ALTERNATE "备用"
+
+// ---------------------------- Index ----------------------------
+// date/time
+#define L_TIME_BROWSER_UT "格林威治时间（浏览器获取）"
+
+// weather
+#define L_TEMPERATURE "温度"
+#define L_AMBIENT_TEMPERATURE "环境温度"
+#define L_PRESSURE "气压"
+#define L_HUMIDITY "相对湿度"
+#define L_DEW_POINT "露点温度"
+
+// operation
+#define L_TRACKING "跟踪"
+#define L_SITE "观测地"
+#define L_COORDINATES "坐标"
+#define L_CURRENT "当前位置"
+#define L_TARGET "目标&nbsp;&nbsp;"
+#define L_ENCODER "编码器"
+#define L_POLAR_ALIGN "极轴校准"
+
+// pier side
+#define L_PIER_SIDE "镜臂侧"
+#define L_MERIDIAN_FLIPS "子午线翻转"
+#define L_ALIGN_MESSAGE "赤道仪相对于"
+#define L_MERIDIAN_FLIP_W_TO_E "子午线翻转，自西向东"
+#define L_MERIDIAN_FLIP_E_TO_W "子午线翻转，自东向西"
+
+#define L_OPERATIONS "操作"
+
+// parking
+#define L_PARKING "停靠中"
+#define L_PARKED "已停靠"
+#define L_NOT_PARKED "未停靠"
+#define L_PARKING "停靠中"
+#define L_PARK_FAILED "停靠失败"
+
+// home
+#define L_HOMING "返回原点中"
+#define L_AT_HOME "已在原点"
+#define L_SLEWING "转动中"
+#define L_PPS_SYNC "秒脉冲同步"
+#define L_HOME_REV "反向"
+#define L_HOME_OFFSET "距原点感应位置的偏移:"
+#define L_HOME_OFFSET_RANGE_AXIS1 "轴1，+/-" STR(HOME_OFFSET_RANGE_AXIS1) " 角秒"
+#define L_HOME_OFFSET_RANGE_AXIS2 "轴2，+/-" STR(HOME_OFFSET_RANGE_AXIS2) " 角秒"
+#define L_HOME_AUTO "开机时自动设置原点:"
+
+// tracking
+#define L_REFR_COMP_RA "RC"
+#define L_REFR_COMP_BOTH "RCD"
+#define L_FULL_COMP_RA "FC"
+#define L_FULL_COMP_BOTH "FCD"
+#define L_TRACKING "跟踪"
+#define L_CURRENT_MAXRATE "当前最大速率"
+#define L_DEFAULT_MAXRATE "默认最大速率"
+#define L_CURRENT_MAXSLEW "最大转动速度"
+
+#define L_FREQUENCY_ADJUST "频率调整"
+
+// driver status
+#define L_DRIVER "驱动器"
+#define L_STATUS "状态"
+#define L_STATE "状态"
+#define L_COMMS_FAILURE "通信故障"
+#define L_STANDSTILL "静止"
+#define L_OPEN_LOAD "负载开路"
+#define L_SHORT_GND "对地短路"
+#define L_SHUTDOWN_OVER "过温关断"
+#define L_PRE_WARNING "预警告"
+#define L_DRIVER_FAULT "故障"
+
+// misc. errors/workload
+#define L_HARDWARE "硬件"
+#define L_INTERNAL_TEMP "控制器温度"
+#define L_LAST_GENERAL_ERROR "最近错误"
+#define L_WORKLOAD "负载"
+#define L_WIRELESS_SIGNAL_STRENGTH "无线信号强度"
+
+// --------------------------- Control ---------------------------
+
+#if DISPLAY_SPECIAL_CHARS == ON
+  #define HOME_CH "&#x1F3E0;"
+  #define ARROW_DR "&#x27A5;"
+  #define ARROW_UR "&#x27A6;"
+  #define ARROW_R2 "&#x27A4;"
+  #define CAUTION_CH "&#9888;"
+  #define CLOCK_CH "&#x1F565;"
+  #define ARROW_LL "&lt;&lt;"
+  #define ARROW_L "&lt;"
+  #define ARROW_R "&gt;"
+  #define ARROW_RR "&gt;&gt;"
+  #define ARROW_DD "&lt;&lt;"
+  #define ARROW_D "&lt;"
+  #define ARROW_U "&gt;"
+  #define ARROW_UU "&gt;&gt;"
+  #define SIDEREAL_CH "&#9733;"
+  #define LUNAR_CH "&#9790;"
+  #define SOLAR_CH "&#9737;"
+  #define KING_CH "&#9812;"
+#else
+  #define HOME_CH "H"
+  #define ARROW_DR "-&gt;"
+  #define ARROW_UR "-&gt;"
+  #define ARROW_R2 "&gt;"
+  #define CAUTION_CH "!"
+  #define CLOCK_CH "T"
+  #define ARROW_LL "&lt;&lt;"
+  #define ARROW_L "&lt;"
+  #define ARROW_R "&gt;"
+  #define ARROW_RR "&gt;&gt;"
+  #define ARROW_DD "&lt;&lt;"
+  #define ARROW_D "&lt;"
+  #define ARROW_U "&gt;"
+  #define ARROW_UU "&gt;&gt;"
+  #define SIDEREAL_CH "*"
+  #define LUNAR_CH "("
+  #define SOLAR_CH "O"
+  #define KING_CH "K"
+#endif
+
+#define BUTTON_N "N"
+#define BUTTON_S "S"
+#define BUTTON_E "E"
+#define BUTTON_W "W"
+#define BUTTON_SYNC "@"
+
+#define L_HINT_CLOCK "设置日期/时间"
+#define L_HINT_CONTINUE_GOTO "继续 Goto（原点处暂停时）"
+#define L_HOME_PARK_TITLE "设置原点与停靠"
+#define L_RETURN_HOME "返回原点"
+#define L_RESET_HOME "设置原点"
+#define L_UNPARK "解除停靠"
+#define L_PARK "停靠"
+#define L_HINT_EMERGENCY_STOP "紧急停止!"
+#define L_HINT_RATE_SIDEREAL "恒星速率"
+#define L_HINT_RATE_LUNAR "月球速率"
+#define L_HINT_RATE_SOLAR "太阳速率"
+#define L_HINT_RATE_KING "King 速率"
+#define L_HINT_FOC_SEL "选择调焦器"
+#define L_HINT_DEROTATE_ON "开启消旋"
+#define L_HINT_ROTATOR_REV "反转旋转器运动"
+#define L_HINT_ROTATOR_PAR "将旋转器转到视差角"
+#define L_HINT_DEROTATE_OFF "关闭消旋"
+
+#define L_ALIGN "校准"
+#define L_AUX_FEATURES "辅助功能"
+
+#define L_FOCUSER "调焦器"
+#define L_ROTATOR "旋转器"
+#define L_DEROTATOR "消旋器"
+#define L_CAMERA_EXPOSURE "曝光"
+#define L_CAMERA_DELAY "延时"
+#define L_CAMERA_COUNT "张数"
+
+// ---------------------------- Library --------------------------
+
+#define L_CATALOG "星表"
+#define L_CATALOGS "星表"
+#define L_RECS_AVAIL "条可用记录"
+#define L_CAT_DATA "数据（已下载或待上传）"
+
+#define L_CAT_EXAMPLE1 "字段：<br /><pre>"
+#define L_CAT_EXAMPLE2 "  第 1 行必须为星表名称记录，<br />"
+#define L_CAT_EXAMPLE3 "  由 '$' 加最多 10 个字符组成。<br /><br />"
+#define L_CAT_EXAMPLE4 "  天体名称由最多 11 个字符组成。<br /><br />"
+#define L_CAT_EXAMPLE5 "  Cat 为类别代码，规则如下：<br />"
+#define L_CAT_EXAMPLE6 "  RA（Jnow）以时、分、秒表示。<br />"
+#define L_CAT_EXAMPLE7 "  Dec（Jnow）以 +/- 度、分、秒表示。<br />"
+
+#define L_CAT_NO_NAME "所选星表没有名称。"
+#define L_CAT_GET_NAME_FAIL "所选星表，获取名称失败。"
+#define L_CAT_NO_CAT "未选择星表。"
+#define L_CAT_NO_OBJECT "未选择天体。"
+#define L_SELECTED "已选择"
+#define L_CAT_DOWNLOAD_FAIL "下载失败，数据无效。"
+#define L_CAT_DOWNLOAD_SUCCESS "下载成功。"
+#define L_CAT_DOWNLOAD_INDEX_FAIL "下载失败，无法索引到星表。"
+#define L_CAT_DATA_REMOVED "星表数据已移除"
+#define L_CAT_UPLOAD_FAIL "上传失败，星表名称无效。"
+#define L_CAT_UPLOAD_INDEX_FAIL "上传失败，无法索引星表名称记录。"
+#define L_CAT_DELETE_FAIL "上传失败，无法删除星表名称记录。"
+#define L_CAT_WRITE_NAME_FAIL "上传失败，无法写入星表名称记录。"
+#define L_CAT_UPLOAD_NO_NAME_FAIL "上传失败，第 1 行必须包含星表名称。"
+#define L_CAT_BAD_FORM "上传失败，格式错误，行号 "
+#define L_CAT_UPLOAD_BAD_OBJECT_NAME "上传失败，天体名称错误，行号 "
+#define L_CAT_BAD_CATEGORY "上传失败，类别错误，行号 "
+#define L_CAT_BAD_RA "上传失败，RA 格式错误，行号 "
+#define L_CAT_BAD_DEC "上传失败，Dec 格式错误，行号 "
+#define L_CAT_UPLOAD_RA_FAIL "上传失败，发送 RA 失败，行号 "
+#define L_CAT_UPLOAD_DEC_FAIL "上传失败，发送 Dec 失败，行号 "
+#define L_CAT_UPLOAD_LINE_FAIL "上传失败，发送行号 "
+#define L_CAT_UPLOAD_SUCCESS "上传成功"
+#define L_CAT_UPLOAD_LINES_WRITTEN "行已写入"
+#define L_CAT_UPLOAD_SELECT_FAIL "上传失败，无法选择星表。"
+#define L_CAT_UPLOAD_NO_CAT "上传失败，未选择星表。"
+#define L_CAT_CLEAR "清除星表"
+#define L_CAT_CLEAR_LIB "清除天体库"
+
+// --------------------------- Encoders --------------------------
+
+// general settings
+#define L_ENC_SYNC_TO_ENC "同步 OnStep -> 编码器"
+#define L_ENC_SYNC_TO_ONS "同步编码器 -> OnStep"
+#define L_ENC_ORIGIN_TO_ONS "设置 OnStep -> 编码器原点"
+#define L_ENC_AUTO_SYNC "自动同步编码器 -> OnStep"
+#define L_ENC_CONF "编码器配置"
+#define L_ENC_SET_TPD "每度计数"
+#define L_ENC_SYNC_THLD "自动同步阈值"
+#define L_ENC_SYNC_THLD_UNITS "0 到 9999 角秒"
+#define L_ENC_AUTO_RATE "OnStep 速率控制"
+#define L_NOW "现在"
+
+// ------------------------------ PEC ----------------------------
+
+#define L_PEC_STATUS "状态"
+#define L_PEC_CONTROL "PEC 控制"
+#define L_PEC_PLAY "播放"
+#define L_STOP "停止"
+#define L_PEC_CLEAR "清除"
+#define L_PEC_REC "记录"
+#define L_PEC_CLEAR_MESSAGE "清除仅清空内存缓冲区，不会影响 EEPROM。记录期间校正值按 3:1 加权平均并偏向缓冲区；若缓冲区已清除，则采用完整校正值。"
+#define L_PEC_EEWRITE "写入 EEPROM"
+#define L_PEC_EEWRITE_MESSAGE "将 PEC 数据写入 EEPROM，这样 OnStep 重启后仍会保留。写入数据可能需要几秒钟。"
+#define L_DISABLED_MESSAGE "已禁用"
+#define L_PEC_IDLE "空闲"
+#define L_PEC_WAIT_PLAY "播放等待开始"
+#define L_PEC_PLAYING "播放中"
+#define L_PEC_WAIT_REC "记录等待索引信号到达"
+#define L_PEC_RECORDING "记录中"
+#define L_PEC_UNK "未知"
+#define L_PEC_EEWRITING "正在写入 EEPROM"
+#define L_PEC_STEPS_PER_WORM_ROTATION "蜗杆每转步数"
+
+// --------------------------- Settings --------------------------
+
+#define L_REFINE_POLAR_ALIGN "精调极轴"
+#define L_REFINE_PA "精调极轴"
+#define L_REFINE_MESSAGE1 "完成设置并校准 3 颗以上恒星。将赤纬在 50°～80°（北或南）、靠近北天极或南天极的亮星设为 Goto 目标。 "
+#define L_REFINE_MESSAGE2 "按下 [精调极轴] 按钮，然后使用赤道仪的极轴调节装置将恒星重新居中。 "
+#define L_REFINE_MESSAGE3 "可选：再次校准赤道仪。"
+
+#define L_PARK "停靠"
+#define L_SET_PARK "设置停靠位置"
+#define L_SET_PARK_CURRENT_COORDS "将当前位置设为停靠位置"
+#define L_COORD_ORIGIN_TITLE "坐标原点"
+#define L_COORD_ORIGIN "设置坐标原点"
+#define L_COORD_ORIGIN_MSG "在回位且关闭跟踪时建立用于同步限制的物理/坐标原点。"
+
+#define L_TRK_FASTER "加快"
+#define L_TRK_SLOWER "减慢"
+#define L_TRK_RESET "重置（默认）"
+#define L_TRK_COMP "补偿跟踪速率（指向模型/大气折射）"
+#define L_TRK_FULL "全部"
+#define L_TRK_REFR "仅折射"
+#define L_TRK_DUAL "双轴"
+#define L_TRK_SINGLE "单轴"
+
+#define L_BUZZER "Goto 提示，蜂鸣器"
+
+#define L_MERIDIAN_FLIP_AUTO "越限时自动子午线翻转"
+#define L_MERIDIAN_FLIP_NOW "现在"
+#define L_MERIDIAN_FLIP_PAUSE "子午线翻转，回位处暂停"
+#define L_MERIDIAN_FLIP_PPS "子午线翻转，首选镜臂侧"
+
+#define L_ORIENTATION_AUTO "方向改变"
+#define L_ORIENTATION_CHANGE_NOW L_MERIDIAN_FLIP_NOW
+#define L_ORIENTATION_CHANGE_PAUSE "翻转，回位处暂停"
+#define L_ORIENTATION_CHANGE_PPS "翻转，首选方向"
+
+// ------------------------ Configuration ------------------------
+
+#define L_BASIC_SET_TITLE "基本："
+
+#define L_MAX_SLEW_SPEED "最大转动速度"
+
+// goto Rate
+#define L_VSLOW "极慢"
+#define L_SLOW "慢"
+#define L_NORMAL "正常"
+#define L_FAST "快"
+#define L_VFAST "极快"
+
+// backlash
+#define L_BACKLASH "齿隙"
+#define L_BACKLASH_RANGE_AXIS1 "轴1，0 到 3600 角秒"
+#define L_BACKLASH_RANGE_AXIS2 "轴2，0 到 3600 角秒"
+#define L_BACKLASH_RANGE_AXIS3UP "齿隙，0 到 32767 步"
+
+// deadband/TCF
+#define L_DEADBAND "TCF 死区"
+#define L_TCF_COEF "TCF 系数"
+#define L_TCF_COEF_EN "TCF 启用"
+#define L_DEADBAND_RANGE_AXIS4UP "TCF 死区，1 到 32767 步"
+#define L_TCF_COEF_RANGE_AXIS4UP "TCF 系数，&pm;999.0 微米/°C"
+#define L_TCF_COEF_EN_AXIS4UP "TCF 启用，0 假或 1 真"
+
+// limits
+#define L_LIMITS_TITLE "地平线与天顶限制"
+#define L_LIMITS_RANGE_HORIZON "地平线，最低高度 &pm;30&deg;"
+#define L_LIMITS_RANGE_OVERHEAD "天顶，最高高度 60 到 90&deg;"
+#define L_LIMITS_RANGE_MERIDIAN_E "越过子午线，立柱东侧 &pm;270&deg;"
+#define L_LIMITS_RANGE_MERIDIAN_W "越过子午线，立柱西侧 &pm;270&deg;"
+
+// location
+#define L_LOCATION_TITLE "时间与位置"
+#define L_LOCATION_LONG "经度 度.分.秒 &pm;180，西经为正"
+#define L_LOCATION_LAT "纬度 度.分.秒 &pm;90，北纬为正"
+#define L_LOCATION_RANGE_UTC_OFFSET "UTC 偏移，以小时和分钟计，-14 到 +12"
+#define L_LOCATION_MESSAGE_UTC_OFFSET "与时区值的符号相反，用于标准时间（非夏令时）。"
+
+// advanced configuration
+
+// AxisToTile.cpp has a count and array matching these values
+#define L_AXPN_STEPS_PER_DEG "步数/度"               // "$1" (first axis parameter)
+#define L_AXPN_LIMIT_DEGS_MIN "最小限制，度"         // "$2"
+#define L_AXPN_LIMIT_DEGS_MAX "最大限制，度"         // "$3"
+#define L_AXPN_STEPS_PER_UM "步数/微米"              // "$4"
+#define L_AXPN_LIMIT_UM_MIN "最小限制，微米"         // "$5"
+#define L_AXPN_LIMIT_UM_MAX "最大限制，微米"         // "$6"
+#define L_AXPN_REVERSE "反向"                        // "$7" (first motor parameter)
+#define L_AXPN_MICROSTEPS "微步"                     // "$8"
+#define L_AXPN_MICROSTEPS_GOTO "微步 Goto"           // "$9"
+#define L_AXPN_DECAY_MODE "衰减模式"                 // "$10"
+#define L_AXPN_DECAY_MODE_GOTO "衰减模式 Goto"       // "$11"
+#define L_AXPN_CURRENT_HOLD "毫安 保持"              // "$12"
+#define L_AXPN_CURRENT_RUN "毫安 运行"               // "$13"
+#define L_AXPN_CURRENT_GOTO "毫安 Goto"              // "$14"
+#define L_AXPN_INTERPOLATE "256 倍插值"              // "$15"
+#define L_AXPN_PID_P "<big><code>P</code></big> 跟踪" // "$16"
+#define L_AXPN_PID_I "<big><code>I</code></big> 跟踪" // "$17"
+#define L_AXPN_PID_D "<big><code>D</code></big> 跟踪" // "$18"
+#define L_AXPN_PID_SLEWING_P "<big><code>P</code></big> 转动" // "$19"
+#define L_AXPN_PID_SLEWING_I "<big><code>I</code></big> 转动" // "$20"
+#define L_AXPN_PID_SLEWING_D "<big><code>D</code></big> 转动" // "$21"
+#define L_AXPN_RADS_PER_COUNT "弧度/计数"            // "$22"
+#define L_AXPN_STEPS_TO_COUNTS "步数/计数比"          // "$23"
+#define L_AXPN_MAX_ACCEL "最大加速度，%/s/s"          // "$24"
+#define L_AXPN_MIN_PWR "最小功率，%"                  // "$25"
+#define L_AXPN_MAX_PWR "最大功率，%"                  // "$26"
+
+#define L_ADV_DECAY_SLOW "慢"
+#define L_ADV_DECAY_FAST "快"
+#define L_ADV_DECAY_MIXED "混合"
+#define L_ADV_DECAY_SPREADCYCLE "SpreadCycle"
+#define L_ADV_DECAY_STEALTHCHOP "StealthChop"
+
+#define L_ADV_MOTOR "电机"
+#define L_REVERT "恢复默认值"
+#define L_ADV_SET_TITLE "高级"
+#define L_ADV_SET_HEADER_MSG "除特别注明外，以下更改在重启 OnStep 后生效："
+#define L_ADV_MOUNT_TYPE " 选择 1 赤道式（GEM），2 赤道叉式（EQ Fork），或 3 水平式（Alt/Azm）"
+#define L_ADV_BOOL "0 假或 1 真"
+
+#define L_ADV_SET_REV "反向"
+
+#define L_ADV_ENABLE "启用高级配置"
+#define L_ADV_DISABLE "禁用高级配置（重启后恢复所有默认值）"
+#define L_ADV_SET_AXIS_NO_EDIT "该轴的编辑已被禁用。"
+#define L_ADV_SET_NO_EDIT "当前所有轴的编辑均被禁用。可能未启用此功能（相关配置默认值生效），或需要重启 OnStep。"
+#define L_ADV_SET_FOOTER_MSG0 "大多数轴设置的更改需要重启后才能生效。"
+#define L_ADV_SET_FOOTER_MSG1 "按 [上传] 后请留意上述更改，上传可能因参数无效而被拒绝。"
+#define L_ADV_SET_FOOTER_MSG2 "选择 [恢复默认值] 后，该组在重启 OnStep 之前将无法编辑。"
+#define L_ADV_SET_FOOTER_MSG4 "更改轴1的蜗杆每转步数与每度步数之比可能损坏库（Library）NV 内存区，如有必要请先备份星表。"
+
+// reset control
+#define L_RESET_TITLE "OnStep 重启控制："
+#define L_WIPE_RESET "清除所有设置并重启 OnStep"
+#define L_RESET "重启 OnStep"
+#define L_RESET_FWU "重启 OnStep 以进行固件上传"
+#define L_RESET_MSG1 "OnStep 必须处于回位或停靠状态，否则重启请求将被忽略。"
+
+// ----------------------------  SETUP ----------------------------
+
+#define L_NETWORK_PERFORMANCE "性能与兼容性"
+#define L_NETWORK_CMD_TO "命令通道串口读取超时"
+#define L_NETWORK_WWW_TO "网页通道串口读取超时"
+
+#define L_NETWORK_STA_TITLE "站点模式（连接到接入点）"
+#define L_NETWORK_PWD "密码"
+#define L_NETWORK_PWD_MSG "至少 8 个字符"
+#define L_NETWORK_EN_DHCP "启用 DHCP"
+#define L_NETWORK_EN_DHCP_MSG "注意：启用 DHCP 后，上述地址将被忽略"
+#define L_NETWORK_EN_STA "启用站点模式"
+#define L_IP_ADDRESS "IP 地址"
+#define L_GATEWAY "网关"
+#define L_SUBNET "子网掩码"
+#define L_NETWORK_CHA "信道"
+#define L_NETWORK_EN_AP_MODE "启用接入点模式"
+
+#define L_NETWORK_OTA_TITLE "OTA SWS 固件更新"
+#define L_NETWORK_EN_OTA "启用 OTA 模式"
+#define L_REBOOT_OTA "重启进入 OTA 模式"
+
+#define L_NETWORK_CONFIG_SECURITY "网络配置安全"
+
+#define L_NETWORK_AP "接入点模式（站点模式连接失败时自动启用）"
+
+#define L_NETWORK_RESTART_MSG "您必须<u>手动</u>重启才能使更改生效。"
+
+#define L_NETWORK_TITLE "输入密码以更改配置："
+
+#define L_NETWORK_ADVICE1 "设置：<br/><br/>"
+#define L_NETWORK_ADVICE2 "请仅启用站点模式<b>或</b>接入点模式，同时启用两者可能会导致性能问题。<br/><br/>"
+#define L_NETWORK_ADVICE3 "如果您希望 OnStep 连接到家庭 WiFi 网络，请仅启用站点模式并"
+#define L_NETWORK_ADVICE4 "禁用接入点模式。如果 OnStep 无法连接到您的家庭 WiFi 网络，它将"
+#define L_NETWORK_ADVICE5 "自动重新启用站点模式；当您身处暗夜观测地且/或"
+#define L_NETWORK_ADVICE6 "防止被锁定无法访问时，这非常有用。<br/><br/>"
+#define L_NETWORK_ADVICE7 "如果被锁定无法访问 WiFi，您可以使用 Arduino IDE 重置 ESP 闪存（并"
+#define L_NETWORK_ADVICE8 "恢复默认设置。）在 Arduino 工具菜单中，将 Erase Flash 'Only Sketch'"
+#define L_NETWORK_ADVICE9 "改为 Erase Flash 'All Flash Contents'，然后重新上传 WiFi-Bluetooth 固件。"
+
+// --------------------------- Constants -------------------------
+
+#define L_DOWN_TITLE "与 OnStep 的串行接口已断开！"
+#define L_DOWN_MESSAGE1 "如果您刚刚重启了 OnStep，请等待几秒让其完全启动，然后确认您仍连接着 WiFi。"
+#define L_DOWN_MESSAGE2 "如果这是持续性问题，其他可能的原因如下：<br /><ul>"
+#define L_DOWN_MESSAGE3 "仅重启 OnStep 导致波特率不匹配，请将所有设备断电再重新上电。"
+#define L_DOWN_MESSAGE4 "SWS 波特率配置错误。"
+#define L_DOWN_MESSAGE5 "OnStep 波特率配置错误。"
+#define L_DOWN_MESSAGE6 "串口接线错误。"
+#define L_DOWN_MESSAGE7 "电源引脚接线错误。OnStep 的 MCU 与扩展板的 MCU 必须共地（Gnd）。"
+
+#define L_CONTROLLER "控制器"
+#define L_PAGE_MOUNT "赤道仪"
+#define L_PAGE_AUXILIARY "辅助功能"
+#define L_PAGE_LIBRARY "天体库"
+#define L_PAGE_ENCODERS "编码器"
+#define L_PAGE_PEC "PEC"
+#define L_SETTINGS "设置"
+#define L_CONTROLS "控制"
+#define L_PAGE_CONFIG "配置"
+#define L_PAGE_NETWORK "网络"
+
+// ------------------------- MountStatus -------------------------
+
+// general (background) errors
+#define L_GE_NONE "无"
+#define L_GE_MOTOR_FAULT "电机/驱动器故障"
+#define L_GE_ALT_MIN "低于地平线限制"
+#define L_GE_LIMIT_SENSE "限位感应"
+#define L_GE_DEC "超出赤纬限制"
+#define L_GE_AZM "超出方位角限制"
+#define L_GE_UNDER_POLE "超出极点下方限制"
+#define L_GE_MERIDIAN "超出子午线限制"
+#define L_GE_SYNC "超出同步安全限制"
+#define L_GE_PARK "停靠失败"
+#define L_GE_GOTO_SYNC "Goto 同步失败"
+#define L_GE_UNSPECIFIED "未知错误"
+#define L_GE_ALT_MAX "超出天顶上方限制"
+#define L_GE_WEATHER_INIT "天气传感器初始化失败"
+#define L_GE_SITE_INIT "时间或位置未更新"
+#define L_GE_NV_INIT "NV/EEPROM 初始化错误"
+#define L_GE_OTHER "未知错误，代码"
+
+// command errors
+#define L_CE_NONE "无错误"
+#define L_CE_0 "回复 0"
+#define L_CE_CMD_UNKNOWN "未知命令"
+#define L_CE_REPLY_UNKNOWN "无效回复"
+#define L_CE_PARAM_RANGE "参数超出范围"
+#define L_CE_PARAM_FORM "参数格式错误"
+#define L_CE_ALIGN_FAIL "校准失败"
+#define L_CE_ALIGN_NOT_ACTIVE "校准未激活"
+#define L_CE_NOT_PARKED_OR_AT_HOME "未停靠或未回位"
+#define L_CE_PARKED "已停靠"
+#define L_CE_PARK_FAILED "停靠失败"
+#define L_CE_NOT_PARKED "未停靠"
+#define L_CE_NO_PARK_POSITION_SET "未设置停靠位置"
+#define L_CE_GOTO_FAIL "Goto 失败"
+#define L_CE_LIBRARY_FULL "天体库已满"
+#define L_CE_GOTO_ERR_BELOW_HORIZON "Goto 目标低于地平线"
+#define L_CE_GOTO_ERR_ABOVE_OVERHEAD "Goto 目标高于天顶"
+#define L_CE_SLEW_ERR_IN_STANDBY "待机状态下转动"
+#define L_CE_SLEW_ERR_IN_PARK "停靠状态下转动"
+#define L_CE_GOTO_ERR_GOTO "已在 Goto 中"
+#define L_CE_GOTO_ERR_OUTSIDE_LIMITS "Goto 超出限制范围"
+#define L_CE_SLEW_ERR_HARDWARE_FAULT "硬件故障"
+#define L_CE_MOUNT_IN_MOTION "赤道仪运动中"
+#define L_CE_GOTO_ERR_UNSPECIFIED "其他"
+#define L_CE_UNK "未知"
+
